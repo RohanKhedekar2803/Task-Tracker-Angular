@@ -1,0 +1,16 @@
+.Header{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+    margin-left: 10%;
+    padding: 1%;
+    font-size: 160%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.Headtext{
+    background-color: blueviolet;
+}

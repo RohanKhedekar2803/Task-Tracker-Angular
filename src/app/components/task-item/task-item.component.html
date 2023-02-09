@@ -1,0 +1,11 @@
+<div class="Eachtask" [ngClass]="{ green : task.reminder}" (dblclick)="toggleAlarm(task)">
+    <p style="display: flex; justify-content: space-between;">Task : {{task.data}} 
+        <fa-icon  [icon]="myarrow"
+         [ngStyle]="{'color':'red'}"
+         (click)="onDelete(task)"
+        >
+        </fa-icon>
+    </p>
+    <p>Date : {{task.day}}</p>
+    <p>Alarm : {{task.reminder}}</p>
+</div>

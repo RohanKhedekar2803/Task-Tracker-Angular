@@ -1,0 +1,14 @@
+
+<header class="Header">
+    <div class="title">
+        {{title}}
+    </div>
+    <div>
+        <app-button
+         *ngIf="hasroute('/')"
+         color="{{AddTask ? 'red' : 'green'}}"
+          text="{{AddTask ? 'close' : 'Add new Task'}}"
+        (myfunction)="toggleaddtask()"
+         ></app-button>
+    </div>
+</header>

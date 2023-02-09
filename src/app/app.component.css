@@ -1,0 +1,10 @@
+.Container{
+   width: 80%;
+   height: 10%;
+   margin: 2%;
+   margin-left: 10%;
+   padding: 1%;
+   border : 1px solid cyan;
+   font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

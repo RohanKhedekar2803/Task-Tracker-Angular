@@ -1,0 +1,11 @@
+.Eachtask{
+    background-color: rgb(221, 214, 214);
+    margin: 0.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:1%;
+    border-left: 0.1cm solid red;
+}
+.green{
+    border-left: 0.1cm solid green;
+}

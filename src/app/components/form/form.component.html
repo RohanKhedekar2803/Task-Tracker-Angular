@@ -1,0 +1,24 @@
+<form class="Form" *ngIf="AddTaskvisible"  (ngSubmit)="onSubmit()"  >
+    <div class="Container">
+        <div class="Blocks">
+            <label for="day">Day and Time </label>
+            <input type="text" name="day" id="day" placeholder="Add Day and Time" [(ngModel)]="day" >
+        </div>
+
+        <div class="Blocks">
+            <label for="task">Task </label>
+            <input type="text" name="task" id="task" placeholder="Add Tasks" [(ngModel)]="task" >
+        </div>
+
+        
+        <div class="Blocks">
+             Reminder :
+            <input type="checkbox" name="check" id="check" [(ngModel)]="reminder">
+        </div> 
+    </div>
+
+    
+    <div style="display: flex; justify-content: space-around; align-items: center; margin-top:1%;"   >
+        <button type="submit"  class="Btn" name="btn">ADD TASK</button>  
+    </div>
+</form>

@@ -1,0 +1,10 @@
+<!-- <p *ngFor="let task of tasks" class="tasks" ></p> -->
+<!-- [task] to pass one item at time -->
+<app-form  (newtask)="Addtask($event)"></app-form>
+<app-task-item *ngFor="let task of tasks"
+ [task]="task"
+  (ee)="deletetask(task)"
+  (toggleEmitt)="toggle(task)"
+  ></app-task-item>  
+
+
